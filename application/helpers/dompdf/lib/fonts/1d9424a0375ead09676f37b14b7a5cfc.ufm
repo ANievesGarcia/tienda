@@ -1,0 +1,176 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Creative Commons CC BY-SA 2012
+FontName Entypo
+FontSubfamily Regular
+UniqueID FONTLAB:OTFEXPORT
+FullName Entypo
+Version 2.000
+PostScriptName Entypo
+Trademark Entypo is a trademark of Daniel Bruce
+Manufacturer Daniel Bruce
+Designer Daniel Bruce
+FontVendorURL www.danielbruce.se
+FontDesignerURL www.danielbruce.se
+PreferredFamily Entypo
+PreferredSubfamily Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 0
+UnderlinePosition -100
+FontHeightOffset 0
+Ascender 750
+Descender -250
+FontBBox 50 -1 552 501
+StartCharMetrics 242
+U 8214 ; WX 365 ; N paus ; G 3
+U 8505 ; WX 330 ; N info ; G 4
+U 8592 ; WX 590 ; N left-thin ; G 5
+U 8593 ; WX 350 ; N up-thin ; G 6
+U 8594 ; WX 590 ; N right-thin ; G 7
+U 8595 ; WX 350 ; N down-thin ; G 8
+U 8624 ; WX 525 ; N level-up ; G 9
+U 8627 ; WX 472 ; N level-down ; G 10
+U 8646 ; WX 600 ; N switch ; G 11
+U 8734 ; WX 600 ; N infinity ; G 12
+U 8853 ; WX 520 ; N circled-plus ; G 13
+U 8854 ; WX 520 ; N circled-minus ; G 14
+U 8862 ; WX 500 ; N squared-plus ; G 15
+U 8863 ; WX 500 ; N squared-minus ; G 16
+U 8962 ; WX 551 ; N home ; G 17
+U 9000 ; WX 600 ; N keyboard ; G 18
+U 9003 ; WX 600 ; N erase ; G 19
+U 9193 ; WX 540 ; N ff ; G 20
+U 9194 ; WX 540 ; N fb ; G 21
+U 9197 ; WX 400 ; N to-end ; G 22
+U 9198 ; WX 400 ; N to-start ; G 23
+U 9203 ; WX 380 ; N hourglass ; G 24
+U 9204 ; WX 210 ; N dot ; G 25
+U 9205 ; WX 385 ; N two-dots ; G 26
+U 9206 ; WX 560 ; N three-dots ; G 27
+U 9207 ; WX 548 ; N volume ; G 28
+U 9632 ; WX 400 ; N stop ; G 29
+U 9652 ; WX 330 ; N triangle-up ; G 30
+U 9654 ; WX 350 ; N play ; G 31
+U 9656 ; WX 300 ; N triangle-right ; G 32
+U 9662 ; WX 330 ; N triangle-down ; G 33
+U 9666 ; WX 300 ; N triangle-left ; G 34
+U 9679 ; WX 450 ; N record ; G 35
+U 9681 ; WX 600 ; N adjust ; G 36
+U 9716 ; WX 520 ; N pie-chart ; G 37
+U 9729 ; WX 600 ; N cloud ; G 38
+U 9733 ; WX 540 ; N star ; G 39
+U 9734 ; WX 540 ; N star-empty ; G 40
+U 9749 ; WX 442 ; N cup ; G 41
+U 9776 ; WX 450 ; N list ; G 42
+U 9789 ; WX 511 ; N moon ; G 43
+U 9825 ; WX 532 ; N heart-empty ; G 44
+U 9829 ; WX 532 ; N heart ; G 45
+U 9834 ; WX 391 ; N note ; G 46
+U 9835 ; WX 471 ; N beamed-notes ; G 47
+U 9871 ; WX 400 ; N layout ; G 48
+U 9873 ; WX 551 ; N flag ; G 49
+U 9874 ; WX 599 ; N tools ; G 50
+U 9881 ; WX 520 ; N cog ; G 51
+U 9888 ; WX 582 ; N warning ; G 52
+U 9889 ; WX 302 ; N bolt ; G 53
+U 9928 ; WX 600 ; N thunder-cloud ; G 54
+U 9991 ; WX 600 ; N voicemail ; G 55
+U 9992 ; WX 600 ; N airplane ; G 56
+U 9993 ; WX 550 ; N mail ; G 57
+U 9998 ; WX 491 ; N pencil ; G 58
+U 10002 ; WX 450 ; N feather ; G 59
+U 10003 ; WX 435 ; N check ; G 60
+U 10006 ; WX 520 ; N circled-cross ; G 61
+U 10060 ; WX 336 ; N cross ; G 62
+U 10062 ; WX 500 ; N squared-cross ; G 63
+U 10067 ; WX 390 ; N help ; G 64
+U 10078 ; WX 481 ; N quote ; G 65
+U 10133 ; WX 390 ; N plus ; G 66
+U 10134 ; WX 390 ; N minus ; G 67
+U 10145 ; WX 465 ; N right ; G 68
+U 10146 ; WX 530 ; N direction ; G 69
+U 10150 ; WX 550 ; N forward ; G 70
+U 10226 ; WX 570 ; N ccw ; G 71
+U 10227 ; WX 570 ; N cw ; G 72
+U 11013 ; WX 465 ; N left ; G 73
+U 11014 ; WX 430 ; N up ; G 74
+U 11015 ; WX 430 ; N down ; G 75
+U 57347 ; WX 600 ; N add-to-list ; G 76
+U 57349 ; WX 450 ; N numbered-list ; G 77
+U 58541 ; WX 465 ; N left-bold ; G 78
+U 58542 ; WX 465 ; N right-bold ; G 79
+U 58543 ; WX 480 ; N up-bold ; G 80
+U 58544 ; WX 480 ; N down-bold ; G 81
+U 59136 ; WX 600 ; N add-user ; G 82
+U 59140 ; WX 562 ; N circled-help ; G 83
+U 59141 ; WX 562 ; N circled-info ; G 84
+U 59146 ; WX 600 ; N eye ; G 85
+U 59148 ; WX 580 ; N tag ; G 86
+U 59153 ; WX 600 ; N upload-cloud ; G 87
+U 59154 ; WX 550 ; N reply ; G 88
+U 59155 ; WX 600 ; N reply-all ; G 89
+U 59156 ; WX 600 ; N code ; G 90
+U 59157 ; WX 600 ; N export ; G 91
+U 59158 ; WX 590 ; N print ; G 92
+U 59159 ; WX 600 ; N retweet ; G 93
+U 59160 ; WX 500 ; N comment ; G 94
+U 59168 ; WX 600 ; N chat ; G 95
+U 59170 ; WX 600 ; N vcard ; G 96
+U 59171 ; WX 600 ; N address ; G 97
+U 59172 ; WX 350 ; N location ; G 98
+U 59175 ; WX 600 ; N map ; G 99
+U 59176 ; WX 582 ; N compass ; G 100
+U 59177 ; WX 480 ; N trash ; G 101
+U 59184 ; WX 450 ; N doc ; G 102
+U 59185 ; WX 450 ; N text-doc-inverted ; G 103
+U 59190 ; WX 601 ; N docs ; G 104
+U 59191 ; WX 600 ; N landscape-doc ; G 105
+U 59194 ; WX 480 ; N rss ; G 106
+U 59196 ; WX 500 ; N share ; G 107
+U 59197 ; WX 550 ; N cart ; G 108
+U 59198 ; WX 600 ; N shareable ; G 109
+U 59200 ; WX 550 ; N login ; G 110
+U 59201 ; WX 550 ; N logout ; G 111
+U 59204 ; WX 496 ; N resize-full ; G 112
+U 59206 ; WX 550 ; N resize-small ; G 113
+U 59212 ; WX 500 ; N popup ; G 114
+U 59213 ; WX 600 ; N publish ; G 115
+U 59214 ; WX 600 ; N browser ; G 116
+U 59215 ; WX 330 ; N arrow-combo ; G 117
+U 59224 ; WX 560 ; N circled-down ; G 118
+U 59225 ; WX 560 ; N circled-left ; G 119
+U 59226 ; WX 560 ; N circled-right ; G 120
+U 59227 ; WX 560 ; N circled-up ; G 121
+U 59228 ; WX 390 ; N chevron-down ; G 122
+U 59229 ; WX 270 ; N chevron-left ; G 123
+U 59230 ; WX 270 ; N chevron-right ; G 124
+U 59231 ; WX 390 ; N chevron-up ; G 125
+U 59232 ; WX 332 ; N chevron-small-down ; G 126
+U 59233 ; WX 232 ; N chevron-small-left ; G 127
+U 59234 ; WX 232 ; N chevron-small-right ; G 128
+U 59235 ; WX 332 ; N chevron-small-up ; G 129
+U 59236 ; WX 532 ; N chevron-thin-down ; G 130
+U 59237 ; WX 332 ; N chevron-thin-left ; G 131
+U 59238 ; WX 332 ; N chevron-thin-right ; G 132
+U 59239 ; WX 532 ; N chevron-thin-up ; G 133
+U 59240 ; WX 600 ; N progress-0 ; G 134
+U 59241 ; WX 600 ; N progress-1 ; G 135
+U 59242 ; WX 600 ; N progress-2 ; G 136
+U 59243 ; WX 600 ; N progress-3 ; G 137
+U 59249 ; WX 570 ; N back-in-time ; G 138
+U 59254 ; WX 560 ; N network ; G 139
+U 59255 ; WX 601 ; N inbox ; G 140
+U 59256 ; WX 551 ; N install ; G 141
+U 59272 ; WX 562 ; N lifebuoy ; G 142
+U 59273 ; WX 381 ; N mouse ; G 143
+U 59290 ; WX 581 ; N brush ; G 144
+U 59297 ; WX 510 ; N magnet ; G 145
+U 59392 ; WX 590 ; N archive ; G 146
+U 61472 ; WX 500 ; N space ; G 147
+U 62977 ; WX 550 ; N sweden ; G 148
+EndCharMetrics
+EndFontMetrics

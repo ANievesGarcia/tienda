@@ -1,0 +1,77 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Creative Commons CC BY-SA 2012
+FontName Entypo Social
+FontSubfamily Regular
+UniqueID FONTLAB:OTFEXPORT
+FullName EntypoSocial
+Version 2.001
+PostScriptName EntypoSocial
+Trademark Entypo is a trademark of Daniel Bruce
+Manufacturer Daniel Bruce
+Designer Daniel Bruce
+FontVendorURL www.danielbruce.se
+FontDesignerURL www.danielbruce.se
+PreferredFamily Entypo Social
+PreferredSubfamily Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 0
+UnderlinePosition -100
+FontHeightOffset 0
+Ascender 750
+Descender -250
+FontBBox 50 0 550 501
+StartCharMetrics 50
+U 61472 ; WX 500 ; N space ; G 3
+U 62208 ; WX 560 ; N github ; G 4
+U 62209 ; WX 580 ; N c-github ; G 5
+U 62211 ; WX 550 ; N flickr ; G 6
+U 62212 ; WX 580 ; N c-flickr ; G 7
+U 62214 ; WX 551 ; N vimeo ; G 8
+U 62215 ; WX 580 ; N c-vimeo ; G 9
+U 62217 ; WX 560 ; N twitter ; G 10
+U 62218 ; WX 580 ; N c-twitter ; G 11
+U 62220 ; WX 350 ; N facebook ; G 12
+U 62221 ; WX 580 ; N c-facebook ; G 13
+U 62222 ; WX 530 ; N s-facebook ; G 14
+U 62223 ; WX 548 ; N google+ ; G 15
+U 62224 ; WX 580 ; N c-google+ ; G 16
+U 62226 ; WX 490 ; N pinterest ; G 17
+U 62227 ; WX 580 ; N c-pinterest ; G 18
+U 62229 ; WX 380 ; N tumblr ; G 19
+U 62230 ; WX 580 ; N c-tumblr ; G 20
+U 62232 ; WX 550 ; N linkedin ; G 21
+U 62233 ; WX 580 ; N c-linkedin ; G 22
+U 62235 ; WX 560 ; N dribbble ; G 23
+U 62236 ; WX 580 ; N c-dribbble ; G 24
+U 62238 ; WX 600 ; N stumbleupon ; G 25
+U 62239 ; WX 580 ; N c-stumbleupon ; G 26
+U 62241 ; WX 600 ; N lastfm ; G 27
+U 62242 ; WX 580 ; N c-lastfm ; G 28
+U 62244 ; WX 560 ; N rdio ; G 29
+U 62245 ; WX 580 ; N c-radio ; G 30
+U 62247 ; WX 540 ; N spotify ; G 31
+U 62248 ; WX 580 ; N c-spotify ; G 32
+U 62250 ; WX 561 ; N qq ; G 33
+U 62253 ; WX 530 ; N instagram ; G 34
+U 62256 ; WX 580 ; N dropbox ; G 35
+U 62259 ; WX 483 ; N evernote ; G 36
+U 62262 ; WX 500 ; N flattr ; G 37
+U 62265 ; WX 560 ; N skype ; G 38
+U 62266 ; WX 580 ; N c-skype ; G 39
+U 62268 ; WX 560 ; N renren ; G 40
+U 62271 ; WX 598 ; N sina-weibo ; G 41
+U 62274 ; WX 530 ; N paypal ; G 42
+U 62277 ; WX 560 ; N picasa ; G 43
+U 62280 ; WX 600 ; N soundcloud ; G 44
+U 62283 ; WX 600 ; N mixi ; G 45
+U 62286 ; WX 600 ; N behance ; G 46
+U 62289 ; WX 560 ; N google-circles ; G 47
+U 62292 ; WX 580 ; N vk ; G 48
+U 62295 ; WX 571 ; N smashing ; G 49
+EndCharMetrics
+EndFontMetrics

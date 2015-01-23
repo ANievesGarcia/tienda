@@ -167,7 +167,7 @@ document.getElementById(id).submit();
 }
 
 
-var url_base = "http://localhost/tienda2/";
+var url_base = "http://masosports.hol.es/";
 var valor = document.getElementsByName("id_eliminar")[0].value;
 	$("a.confirm_delete").click(function(e) {
 		e.preventDefault();

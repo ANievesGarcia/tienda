@@ -57,8 +57,6 @@
 		            <h6>Dirección: <?php echo $usuario->direccion; ?></h6>
 		            <h6>Estado: <?php echo $estado->nombre; ?></h6>
 		            <h6>Municipio: <?php echo $municipio->nombre; ?></h6>
-		            <h6>Fecha de Registro: 27/02/2013</h6>
-
 		        </div>
 			</div>
 		</div>

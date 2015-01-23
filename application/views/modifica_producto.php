@@ -18,7 +18,7 @@
 
 
 				<?php endif; ?>						
-				<?php echo form_open_multipart("principal/actualizando_producto"); ?>
+				<?php echo form_open("principal/actualizando_producto"); ?>
 				
 					<p>
 						<label for="nombre">Nombre <span class="mand">*</span></label>
@@ -104,9 +104,8 @@
 
 					<p>
 					    <label for="imagen">Imagen<span class="mand">*</span></label>
-					    <input type="file" name="imagen" id="imagen" value ="<?php echo $producto->imagen; ?>"  />
+					    <input type="file" name="imagen" value ="<?php echo $producto->imagen; ?>"  />
 					 </p>
-
 
 					
 					<p class="buttons">

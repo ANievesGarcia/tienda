@@ -48,14 +48,14 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'tienda'; 
+$db['default']['hostname'] = 'mysql.hostinger.es';
+$db['default']['username'] = 'u936789225_maso';
+$db['default']['password'] = 'q1w2e3r4';
+$db['default']['database'] = 'u936789225_maso'; 
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
+$db['default']['db_debug'] = FALSE;
 $db['default']['cache_on'] = FALSE;
 $db['default']['cachedir'] = '';
 $db['default']['char_set'] = 'utf8';

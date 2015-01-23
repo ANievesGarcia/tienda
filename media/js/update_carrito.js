@@ -1,4 +1,4 @@
-var url_base = "http://localhost/tienda2/";
+var url_base = "http://masosports.hol.es/";
 //var url_base = "http://lab.linkdesigns.com/tienda/";
 
 $("document").ready(function(){

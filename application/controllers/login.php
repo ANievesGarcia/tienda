@@ -36,7 +36,7 @@ class Login extends CI_Controller
 
 		if($this->form_validation->run() == FALSE){
 			#Si hay errores en el formulario
-			if(($this->input->post()["lugar"])=="en_carrito")
+			if(($this->input->post('lugar'))=="en_carrito")
 			{   #Si se encuentra en el login del dentro del carrito
 				$data["content"] = "detalle_pedido_login";
 				$this->load->view("template", $data);
@@ -49,7 +49,7 @@ class Login extends CI_Controller
 			$usuario = $this->Clientes_model->valida_usuario($this->input->post());
 			if($usuario == FALSE){
 				#si no se encontraron el usuario en la base
-				if(($this->input->post()["lugar"])=="en_carrito")
+				if(($this->input->post("lugar"))=="en_carrito")
 				{   #Si se encuentra en el login del dentro del carrito
 					$data["content"] = "detalle_pedido_login";
 					$data["msg"] = "datos_incorrectos";
@@ -73,7 +73,7 @@ class Login extends CI_Controller
 					else
 						$this->session->set_userdata("usuario_root", FALSE);
 				
-					if(($this->input->post()["lugar"])=="en_carrito")
+					if(($this->input->post('lugar'))=="en_carrito")
 					{   #Si se encuentra en el login del dentro del carrito
 						redirect("principal/detalle_pedido");
 					}
@@ -85,7 +85,7 @@ class Login extends CI_Controller
 				else
 				{ #El usuario no es activo
 					$data["msg"] = "no_activo";
-					if(($this->input->post()["lugar"])=="en_carrito")
+					if(($this->input->post('lugar'))=="en_carrito")
 					{   #Si se encuentra en el login del dentro del carrito
 						$data["content"] = "detalle_pedido_login";
 						$this->load->view("template", $data);
@@ -106,6 +106,7 @@ class Login extends CI_Controller
 		$this->session->unset_userdata('usuario_logeado');
 		$this->carrito->delete_carrito();
 		$this->session->set_userdata("usuario_root", FALSE);
+		$this->session->userdata = array();
 		redirect("principal");
 	}
 
@@ -142,7 +143,7 @@ class Login extends CI_Controller
 
 		if ($this->form_validation->run() == FALSE)
 		{	//Si el formulario se lleno de forma incorrecta regresamos
-			if(($this->input->post()["lugar"])=="en_carrito")
+			if(($this->input->post('lugar'))=="en_carrito")
 			{   #Si se encuentra en el login del dentro del carrito
 				$data["content"] = "detalle_pedido_login";
 				$this->load->view("template", $data);
@@ -156,9 +157,9 @@ class Login extends CI_Controller
 		{
 				$valid_pass = md5(uniqid());  //codigo unico para enviar al correo
 				$this->load->library('email','','correo');
-				$this->correo->from('noreply@yourdomain.com', 'Alfonso');
-				$this->correo->to($this->input->post()["email"]);
-				$this->correo->subject('Activar cuenta Tienda en linea');
+				$this->correo->from('noreply@yourdomain.com', 'Masosports');
+				$this->correo->to($this->input->post('email'));
+				$this->correo->subject('Activar cuenta Masosports');
 				$data["mensaje"] = base_url()."login/activarCuenta/".$valid_pass;
 				$msg = $this->load->view('email_activar', $data, TRUE);
 				$this->correo->message($msg);
@@ -182,7 +183,7 @@ class Login extends CI_Controller
 				  	}
 				  else{
 				  		//no se pudo ingresar el codigo a BD
-					  	if(($this->input->post()["lugar"])=="en_carrito")
+					  	if(($this->input->post('lugar'))=="en_carrito")
 							{   #Si se encuentra en el login del dentro del carrito
 								$data["content"] = "detalle_pedido_login";
 								$data["msg"] = "error_base";  //error de conexion a BD
@@ -196,7 +197,7 @@ class Login extends CI_Controller
 	 			  	}
 	 			  }
 	 			  else{ 
-				if(($this->input->post()["lugar"])=="en_carrito")
+				if(($this->input->post('lugar'))=="en_carrito")
 					{   #Si se encuentra en el login del dentro del carrito
 						$data["content"] = "detalle_pedido_login";
 						$data["msg"] = "error_base";  //error de conexion a BD
@@ -213,7 +214,7 @@ class Login extends CI_Controller
 				  {	//Error al enviar el correo
 					   #show_error($this->correo->print_debugger());
 					  	$data["msg"] = "err_correo";
-					  	if(($this->input->post()["lugar"])=="en_carrito")
+					  	if(($this->input->post('lugar'))=="en_carrito")
 						{   #Si se encuentra en el login del dentro del carrito
 							$data["content"] = "detalle_pedido_login";
 							$this->load->view("template", $data);
@@ -285,7 +286,7 @@ class Login extends CI_Controller
 			$this->load->view("template", $data);		
 		}
 		else{
-			$email_temp=$this->input->post()['email'];
+			$email_temp=$this->input->post('email');
 			$usuario = $this->Clientes_model->obtenerCliente2($email_temp);
 			if($usuario==FALSE){
 				//Si no existe un usuario con ese correo registrado
@@ -449,7 +450,6 @@ class Login extends CI_Controller
 
 		$data["menu_activo"] = "index";
 		$data["total"] = $this->carrito->get_total();
-		$data['usuario'] =$this->session->userdata("usuario");
 		$data['entidades']=$this->Tienda_model->getEntidades();
 		$data["NumeroItems"] = $this->carrito->get_numero_items();
 
@@ -463,11 +463,15 @@ class Login extends CI_Controller
 			$email=$this->session->userdata("usuario")->email;
 			$estado=$this->input->post('estado');
 			$municipio=$this->input->post('municipio');
+			$nombre=$this->input->post('nombre');
+			$apellidos=$this->input->post('apellidos');
 			
-			if(($this->Clientes_model->actualizaPerfil($estado,$municipio,$email))==TRUE){
+			if(($this->Clientes_model->actualizaPerfil($estado,$municipio,$email,$nombre,$apellidos))==TRUE){
 				$data["msg"] = "success_actualizar_perfil";  #perfil actualizado correctamente
 				$data["recientes"] = $this->Tienda_model->get_productos_recientes(6);
 				$data["content"] = "index";
+				$usuario = $this->Clientes_model->obtenerCliente2($email);
+				$this->session->set_userdata("usuario", $usuario);
 				$this->load->view("template", $data);
 			}
 			else{

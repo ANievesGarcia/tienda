@@ -14,7 +14,7 @@
 		<div class="span6 footer-right">
 		
 			<p>
-				&copy;ANIEVES
+				&copy;ISW2014
 			</p>
 		
 		</div>

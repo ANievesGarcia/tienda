@@ -25,7 +25,7 @@
 		<div class="span4">
 		
 			<p class="logo">
-				<span class="entypo globe"></span>TIENDA EN LINEA
+				<span class="entypo globe"></span>MASOSPORTS
 			</p>
 		
 		</div>
@@ -88,7 +88,7 @@
 	<!-- Menu -->
 
 	<script>
-	var url_base = "http://localhost/tienda2/";
+	var url_base = "http://masosports.hol.es/";
 	$("a.confirm").click(function(e) {
     e.preventDefault();
     bootbox.confirm("<center>¿Esta seguro que desea salir? <br> <strong>Su compra sera cancelada</strong></center>", function(confirmed) {

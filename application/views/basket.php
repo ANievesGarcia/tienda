@@ -159,7 +159,7 @@
 	
 
 	<script>
-	var url_base = "http://localhost/tienda2/";
+	var url_base = "http://masosports.hol.es/";
 	$("a.vaciar").click(function(e) {
     e.preventDefault();
     bootbox.confirm("<center>¿Esta seguro que desea vaciar su carrito? <br></center>", function(confirmed) {

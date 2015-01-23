@@ -153,8 +153,8 @@ public function cambiarPass($email,$datos){
     }
 }
 
-public function actualizaPerfil($estado,$municipio,$email){
-	 $data =array('estado'=>$estado,'municipio'=>$municipio);
+public function actualizaPerfil($estado,$municipio,$email,$nombre,$apellidos){
+	 $data =array('estado'=>$estado,'municipio'=>$municipio, 'nombre' => $nombre, 'apellidos' => $apellidos);
     if($data){
         $this->db->where('email', $email);
         $this->db->update('cliente', $data);  

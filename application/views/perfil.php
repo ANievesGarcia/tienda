@@ -113,7 +113,6 @@
 						<button class="btn btn-primary" type="submit">Continue</button>
 						<button type="reset" class="btn btn-warning" value="Cancelar" 
 						onclick="location.href='<?php echo base_url();?>principal/index'">Cancelar</button>
-
 					</p>
 				
 				</form>

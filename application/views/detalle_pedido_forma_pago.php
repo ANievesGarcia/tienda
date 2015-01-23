@@ -110,7 +110,7 @@
        
           <div class="form-actions">
             <button type="submit" class="btn btn-primary">Enviar</button>
-           <button type="reset" class="btn btn-warning" value="Cancelar" 
+            <button type="reset" class="btn btn-warning" value="Cancelar" 
             onclick="location.href='<?php echo base_url();?>principal/index'">Cancelar</button>
              <a href="<?php echo base_url(); ?>principal/reporte" class="btn btn-success">PDF</a>
           </div>
